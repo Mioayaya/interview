@@ -1,0 +1,12 @@
+.x02 {
+  display: block;
+}
+
+#x02 span{
+  background-color: aqua;
+}
+
+.box1+.box2 {
+  display: block;
+  width: 200px;
+}

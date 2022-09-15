@@ -1,0 +1,19 @@
+.box1 {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: 10px solid red;
+  background-color: #bfc;
+  margin-bottom: 20px;
+}
+
+.box2 {  
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: 10px solid red;
+  box-sizing: border-box;
+  background-color: #bfc;
+}
