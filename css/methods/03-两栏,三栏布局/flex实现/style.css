@@ -1,0 +1,67 @@
+*{ 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.box1,.box2 {
+  flex: 1;
+}
+
+.title {
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: #bfc;
+}
+
+.box1>.wrapp {
+  display: flex;
+  height: calc(50vh - 35px);
+  flex-direction: row;
+  text-align: center;
+}
+
+.box1 .wrapp .left {
+  width: 350px;
+  height: 100%;
+  background-color: #eee;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+.box1 .wrapp .right {
+  flex: 1;
+  overflow-y: scroll;
+  background-color: #eee;
+}
+
+.box2 .wrapp {
+  display: flex;
+  flex-direction: row;
+  height: calc(50vh - 35px);
+  text-align: center;
+}
+
+.box2 .wrapp .left {
+  flex: 1;
+  background-color: #eee;
+}
+
+.box2 .wrapp .middle {
+  flex: 3;
+  background-color: #eee;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.box2 .wrapp .right {
+  flex: 1;
+  background-color: #eee;
+}

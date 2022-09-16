@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.way {    
+  flex: 1;
+  background-color: #bfc;
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+
+.way1 {
+  text-align: center;
+}
+
+.way2 {
+  width: 80px;
+  margin: auto;
+}
+
+.way3 {
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+}
+
+.way4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.way5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.way6 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

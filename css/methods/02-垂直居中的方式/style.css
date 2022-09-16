@@ -1,0 +1,54 @@
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.way {
+  flex: 1;
+  background-color: #bfc;
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+
+.way1 {
+  line-height: calc(100vh / 6);
+}
+
+.way2 {
+  height: 16px;
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+}
+
+.way3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 20px;
+  margin: auto;
+}
+
+.way4 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.way5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.way6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
