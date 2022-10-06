@@ -1,0 +1,23 @@
+.fa {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+}
+
+.son1 {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+}
+
+.sonson {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

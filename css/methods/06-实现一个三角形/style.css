@@ -1,0 +1,7 @@
+.border {
+  width: 0;
+  height: 0;
+  border-style:solid;
+  border-width: 0 50px 50px;
+  border-color: transparent transparent #d9534f;
+}
